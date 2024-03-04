@@ -11,4 +11,3 @@ searchForm.addEventListener('submit', async (event) => {
     console.log(helpers);
     helpersList.innerHTML = helpers.map(helper => `<li>${helper.name}</li>`).join('');
 }
-
